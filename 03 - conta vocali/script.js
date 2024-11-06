@@ -7,8 +7,9 @@ const word = 'javascript';
  * Description placeholder
  *
  * @param {*} stringa
- * @returns {number}
+ * @returns {number} 
  */
+
 
 function contaVocali(stringa) {
     const vocali = ['a', 'e', 'i', 'o', 'u'];

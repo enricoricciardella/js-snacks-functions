@@ -8,14 +8,14 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
  *
  * @param {*} array
  * @param {*} lettera
- * @returns {{}}
+ * @returns {{}} 
  */
 
 function filtroIniziale(array, lettera) {
     const result = []; // Array delle iniziali
     for (let i = 0; i < names.length; i++) {
         if(array[i][0] === lettera){
-            result.push(array[i])
+            result.push(array[i]);
         }
     }
     return result;
